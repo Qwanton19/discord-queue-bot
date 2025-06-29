@@ -4,6 +4,7 @@ from discord.ext import commands
 import logging
 from dotenv import load_dotenv
 import os
+import webserver
 
 # actually hiding token this time
 load_dotenv()
@@ -44,6 +45,7 @@ async def on_ready():
 # running the bot
 if __name__ == "__main__":
     if TOKEN:
+        webserver.keep_alive()
         bot.run(TOKEN, log_handler=handler, log_level=logging.DEBUG)
     else:
         print("Discord token not found.")
