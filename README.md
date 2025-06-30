@@ -37,6 +37,6 @@ Interacting with the queue is simple and intuitive for everyone.
 
 ---
 
-## ⚙️ Deployment
+## ⚙️ Information
 
-Bot currently has 24/7 uptime with implementation on a lightweight **Flask** website hosted on the free environment [**Render**](https://render.com), and kept awake with [**UptimeRobot**](https://uptimerobot.com) monitoring.
+Bot currently has 24/7 uptime with implementation on a lightweight **Flask** website hosted on the free environment [**Render**](https://render.com), and kept awake with [**UptimeRobot**](https://uptimerobot.com) monitoring. Message @Qwanton on discord for feature requests / questions.
